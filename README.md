@@ -21,3 +21,4 @@ west update
  编译：
 cd app
 west build -p -b nrfmicro_13_52833 -- -DSHIELD=migpad
+固件在app/build/zephyr/对应键盘名字的uf2文件
